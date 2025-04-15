@@ -54,4 +54,10 @@ AVAILABLE_MCP_SERVERS = {
         'env': {'SHELL': '/usr/bin/zsh', 'FASTMCP_LOG_LEVEL': 'ERROR'},
         'autoApprove': [''],
     },
+    'awslabs.terraform-mcp-server': {
+        'command': 'uvx',
+        'args': ['awslabs.terraform-mcp-server@latest'],
+        'env': {'SHELL': '/usr/bin/zsh', 'FASTMCP_LOG_LEVEL': 'ERROR'},
+        'autoApprove': [''],
+    },
 }
